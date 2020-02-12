@@ -23,6 +23,6 @@ steps:
 - task: Docker@2
   inputs:
     containerRegistry: 'maven-hello-world'
-    repository: 'maven-hello-world'
+    repository: 'matanz121/maven-hello-world'
     command: 'buildAndPush'
     Dockerfile: 'my-app/Dockerfile'
