@@ -9,6 +9,9 @@ trigger:
 pool:
   vmImage: 'ubuntu-latest'
 
+variables:
+  imageName: 'maven-hello-world'
+
 steps:
 - task: Maven@3
   inputs:
